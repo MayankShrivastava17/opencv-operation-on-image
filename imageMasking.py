@@ -4,7 +4,7 @@ import argparse
 import cv2
 # construct the argument parser and parse the arguments
 ap = argparse.ArgumentParser()
-ap.add_argument("-i", "--image", type=str, default="kutta.jpg",
+ap.add_argument("-i", "--image", type=str, default="dog.jpg",
 	help="path to the input image")
 args = vars(ap.parse_args())
 # load the original input image and display it to our screen
